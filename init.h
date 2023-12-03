@@ -11,6 +11,6 @@ using Array = std::vector<int>;
 
 Array insertSort(Array array);
 Array mergeSort(Array array);
-int binarySearch(Array array, int target);
+int binarySearch(Array array, int begin, int end, int target);
 
 #endif //DATASTRUCTURE_CPLUS_INIT_H
